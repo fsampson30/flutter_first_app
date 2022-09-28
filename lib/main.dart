@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Wordpair Generator'),
-        ),
+        ), body: (Center(child: Text('Hello World'),)),
       ),
     );
   }
